@@ -10,6 +10,7 @@ public class CamSwitch : MonoBehaviour
     public GameObject Camera3;
     public GameObject Camera4;
     public GameObject Camera5;
+    public GameObject Camera6;
     public GameObject Person;
 
     void Update() {
@@ -20,6 +21,7 @@ public class CamSwitch : MonoBehaviour
            Camera3.SetActive(false);
            Camera4.SetActive(false);
            Camera5.SetActive(false);
+           Camera6.SetActive(false);
            Person.SetActive(true);
        }
         if  (Input.GetButtonDown("RKey")) 
@@ -29,6 +31,7 @@ public class CamSwitch : MonoBehaviour
            Camera3.SetActive(false);
            Camera4.SetActive(false);
            Camera5.SetActive(false);
+           Camera6.SetActive(false);
            Person.SetActive(true);
        }
        if  (Input.GetButtonDown("9Key")) 
@@ -38,6 +41,7 @@ public class CamSwitch : MonoBehaviour
            Camera3.SetActive(true);
            Camera4.SetActive(false);
            Camera5.SetActive(false);
+           Camera6.SetActive(false);
            Person.SetActive(true);
        }
        if  (Input.GetButtonDown("0Key")) 
@@ -47,6 +51,7 @@ public class CamSwitch : MonoBehaviour
            Camera3.SetActive(false);
            Camera4.SetActive(true);
            Camera5.SetActive(false);
+           Camera6.SetActive(false);
            Person.SetActive(true);
        }
        if  (Input.GetButtonDown("-Key")) 
@@ -56,7 +61,18 @@ public class CamSwitch : MonoBehaviour
            Camera3.SetActive(false);
            Camera4.SetActive(false);
            Camera5.SetActive(true);
+           Camera6.SetActive(false);
            Person.SetActive(false);
+       }
+       if  (Input.GetButtonDown("=Key")) 
+       {
+           Camera1.SetActive(false);
+           Camera2.SetActive(false);
+           Camera3.SetActive(false);
+           Camera4.SetActive(false);
+           Camera5.SetActive(false);
+           Camera6.SetActive(true);
+           Person.SetActive(true);
        }
     }
 }
