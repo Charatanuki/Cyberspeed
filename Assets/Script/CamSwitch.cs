@@ -62,7 +62,7 @@ public class CamSwitch : MonoBehaviour
            Camera4.SetActive(false);
            Camera5.SetActive(true);
            Camera6.SetActive(false);
-           Person.SetActive(false);
+           Person.SetActive(true);
        }
        if  (Input.GetButtonDown("=Key")) 
        {
