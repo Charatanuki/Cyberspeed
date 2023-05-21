@@ -17,27 +17,28 @@ public class SpeedDetector : MonoBehaviour
     void Update()
     {
         float speed = rb.velocity.magnitude * 3.6f; // Convert speed to km/h
-        if (speed <= 0f )
+
+        if (speed <= 0f )           // Gear1
         {
             targetFov = 60f;
         }
-        else if (speed <= 42f)
+        else if (speed <= 42f)      // Gear2
         {
             targetFov = 70f;
         }
-        else if (speed <= 75.8f)
+        else if (speed <= 75.8f)    // Gear3
         {
             targetFov = 80f;
         }
-        else if (speed <= 107.1f)
+        else if (speed <= 107.1f)   // Gear4
         {
             targetFov = 90f;
         }
-        else if (speed <= 149.8f)
+        else if (speed <= 149.8f)   // Gear5
         {
             targetFov = 95f;
         }
-        else if (speed <= 179f)
+        else if (speed <= 179f)     // Gear6
         {
             targetFov = 100f;
         }
