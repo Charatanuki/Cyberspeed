@@ -7758,6 +7758,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 19e3bec5d2084834e86823c680ab9eb1, type: 3}
   m_PrefabInstance: {fileID: 1638043237}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &522379663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4021783844997546117, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+  m_PrefabInstance: {fileID: 4021783844060174542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &524626742
 GameObject:
   m_ObjectHideFlags: 0
@@ -19019,6 +19024,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 19e3bec5d2084834e86823c680ab9eb1, type: 3}
+--- !u!1 &1162559820 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8069336485523777443, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+  m_PrefabInstance: {fileID: 4021783844060174542}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1165378900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37902,6 +37912,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4021783844683201504, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: pauseMenuPanel
+      value: 
+      objectReference: {fileID: 522379663}
+    - target: {fileID: 4021783844683201504, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: pauseOptionsUI
+      value: 
+      objectReference: {fileID: 1162559820}
     - target: {fileID: 4021783844683201507, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -37989,6 +38007,10 @@ PrefabInstance:
     - target: {fileID: 4021783844683201511, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
       propertyPath: m_Name
       value: PauseCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021783844997546117, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_Name
+      value: Pause
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
