@@ -37912,6 +37912,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4021783844524658408, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021783844524658408, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: 90de15f4f3d42ab408529ade9652abdc, type: 2}
     - target: {fileID: 4021783844683201504, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
       propertyPath: pauseMenuPanel
       value: 
@@ -38008,9 +38016,57 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4021783844726370303, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021783844726370303, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: 90de15f4f3d42ab408529ade9652abdc, type: 2}
+    - target: {fileID: 4021783844968070772, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021783844968070772, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: 90de15f4f3d42ab408529ade9652abdc, type: 2}
     - target: {fileID: 4021783844997546117, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
       propertyPath: m_Name
       value: Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021783845084630163, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021783845240849107, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4021783845240849107, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_fontColorGradientPreset
+      value: 
+      objectReference: {fileID: 11400000, guid: 90de15f4f3d42ab408529ade9652abdc, type: 2}
+    - target: {fileID: 8069336485174498951, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069336485174498951, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069336485174498951, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069336485996581901, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069336485996581901, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7503f3092284c0e48bf184c5b80ea036, type: 3}
